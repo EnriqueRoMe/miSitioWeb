@@ -1,0 +1,90 @@
+
+
+body{
+  margin-top:20px;
+
+}
+.home-5-bg {
+  background: #282f4d;
+  position: relative;
+  background-size: cover;
+  height: 100vh;
+  background-position: center center;
+}
+
+@media only screen and (max-width: 600px) {
+  .home-5-bg {
+
+    height: 120vh;
+  }
+
+  .home-center {
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.section {
+  position: relative;
+}
+
+.home-5-content {
+z-index: 1;
+position: relative;
+}
+
+.bg-overlay {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.home-center {
+  display: table;
+  width: 100%;
+  height: 80%;
+  margin-top: 1rem;
+}
+
+.home-desc-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.home-5-content {
+  z-index: 1;
+  position: relative;
+}
+
+.text-white-70 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.f-15 {
+  font-size: 15px;
+}
+
+.home-5-bg #particles-js {
+  z-index: 1!important;
+position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.encabezado a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  
+}
+.encabezado a:hover {
+  color: #cfbc4f;
+}
+
+.btn-yellow {
+  background-color: #cfbc4f;
+}
