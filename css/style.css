@@ -4,6 +4,14 @@ body{
   margin-top:20px;
 
 }
+
+.text-azul {
+  color: #39436e;
+}
+.bg-azul {
+  background: rgb(40,47,77);
+  background: radial-gradient(circle, rgba(40,47,77,1) 0%, rgba(46,53,82,1) 40%, rgba(83,88,113,1) 99%, rgba(72,77,104,1) 100%); 
+}
 .home-5-bg {
   background: #282f4d;
   position: relative;
@@ -87,4 +95,15 @@ position: absolute;
 
 .btn-yellow {
   background-color: #cfbc4f;
+}
+
+
+.custom-popover-sass {
+  --bs-popover-max-width: 200px;
+  --bs-popover-border-color: var(--bs-primary);
+  --bs-popover-header-bg: var(--bs-primary);
+  --bs-popover-header-color: var(--bs-white);
+  --bs-popover-body-padding-x: 1rem;
+  --bs-popover-body-padding-y: .5rem;
+
 }
